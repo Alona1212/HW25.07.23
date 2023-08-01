@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    padding: 30px;
+
+}
+.block{
+    border: 5px solid red;
+    width: 600px;
+    margin: 0;
+    height: 1500px;
+
+}
+.block div{
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+
+}
+.block1 {
+    background-color: blueviolet;
+    /* position: relative;
+    z-index: 2;  */
+    /* position: relative;
+    z-index: 2; */
+}
+.block2 {
+    background-color: blue;
+    /* position: relative;
+    left: 40px; */
+    color: white;
+    /* left сдвинуть от лева */
+    /* right сдвинуть от права */
+    /* bottom: 50px; */
+    /* сдвинуть от нижнего */
+    /* top сдвинуть от верхнего */
+    /* z-index: ; */
+    /* блок 2 находитс НИЖЕ поэтому у него приоритетность ВЫШЕ */
+    /* position: absolute;
+    /* top: 0;
+    left: 0; */
+    /* width: 100%;
+    left: 0;
+    width: 100%;
+    top: 40px;
+    bottom: 0; */ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+
+}
+.block3 {
+    background-color: aqua;
+    /* position: relative;
+    z-index: 2; */
+}

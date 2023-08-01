@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+.container1 {
+    width: 100%;
+    height: 200px;
+    border: 5px solid black;
+}
+.block1{
+    border: 1px solid red;
+    left: 30px;
+    /* мы сдвинули блок на 30 px влево */
+
+}
+.block2{
+    border: 1px solid blueviolet;
+    left: 100px;
+    /* мы сдвинули блок на 100 px влево */
+}
+.block3{
+    border: 1px solid green;
+    left: 170px;
+    /* мы сдвинули блок на 170 px влево */
+
+}
+/* или вместо .container1 div мы можем использовать .block1, .block2., block3 */
+.container1 div{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+
+}
